@@ -11,5 +11,8 @@
   "blockStealInProtectedClaims": true,
   "stealProtectServerClaims": true,
   "stealProtectPlayerClaims": false,
-  "stealProtectOverrides": true
+  "stealProtectOverrides": true,
+  "stealAllowSubConfigs": [
+    "Paradis"
+  ]
 }
