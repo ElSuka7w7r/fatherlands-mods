@@ -1,0 +1,13 @@
+name = "Horseman"
+filename = "horseman-fabric-1.21.1-1.5.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a577576d9c96d2314acde0c85adf71dd3e5933f7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8299048
+project-id = 1082085

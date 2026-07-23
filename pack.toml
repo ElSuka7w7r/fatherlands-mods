@@ -1,0 +1,13 @@
+name = "Fartherlands"
+author = "Fartherlands"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "61f69f6b9ecf7aca985cd1e9ec2c72fe190f9179c8cd00eac8f42f0091d1d979"
+
+[versions]
+fabric = "0.19.2"
+minecraft = "1.21.1"

@@ -1,0 +1,13 @@
+name = "Coins JE"
+filename = "coinsje-fabric-1.21.1-21.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "df849d8de89d21ead0b1ab743252febb3cabc6cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7543710
+project-id = 377056

@@ -1,0 +1,13 @@
+name = "Lucky's Palette"
+filename = "luckys-palette-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f6760db5028a7b3a5c31fafde213d1236daca19"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7302886
+project-id = 1152577

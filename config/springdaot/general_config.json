@@ -1,0 +1,6 @@
+{
+  "titanFearSystemEnabled": false,
+  "titanFearKillsForImmunity": 15,
+  "progressionSystemEnabled": true,
+  "dashCooldownMs": 30000
+}

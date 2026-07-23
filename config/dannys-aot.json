@@ -1,0 +1,105 @@
+{
+  "dualHookEaseTime": 2000,
+
+  "gasTickInterval": 10,
+  "gasConsumptionNormal": 1,
+  "gasConsumptionBoost": 3,
+
+  "basePullSpeed": 0.12,
+  "dualHookPullMultiplier": 2.4,
+  "dualHookBoostPullMultiplier": 1.5,
+  "orbitPullMultiplier": 1.8,
+
+  "baseOrbitSpeed": 0.08,
+  "dualHookOrbitMultiplier": 1.0,
+
+  "upwardLift": 0.05,
+
+  "boostPullMultiplier": 1.0,
+  "boostOrbitMultiplier": 2.5,
+  "boostRampRate": 0.0588,
+  "boostDecayRate": 0.0125,
+
+  "maxHookDistance": 250.0,
+  "momentumPreserveTime": 4500,
+  "flightSoundVelocityThreshold": 0.3,
+
+  "attackMaxStamina": 2000.0,
+  "armoredMaxStamina": 2000.0,
+  "colossalMaxStamina": 2000.0,
+  "femaleMaxStamina": 2000.0,
+  "beastMaxStamina": 6000.0,
+
+  "attackTitanHealth": 400.0,
+  "armoredTitanHealth": 400.0,
+  "colossalTitanHealth": 1000.0,
+  "femaleTitanHealth": 267.0,
+  "beastTitanHealth": 400.0,
+
+  "pureTitanWanderSpeed": 0.09,
+  "pureTitanChaseSpeed": 0.27,
+  "smallTitanWanderSpeed": 0.12,
+  "smallTitanChaseSpeed": 0.27,
+  "smallTitan2WanderSpeed": 0.15,
+  "smallTitan2ChaseSpeed": 0.34,
+  "fritzTitanWanderSpeed": 0.09,
+  "fritzTitanChaseSpeed": 0.27,
+  "titanBeardWanderSpeed": 0.09,
+  "titanBeardChaseSpeed": 0.27,
+  "titanTropicalWanderSpeed": 0.09,
+  "titanTropicalChaseSpeed": 0.27,
+
+  "pureTitanEatingDamage": 3.0,
+  "canStunWhileGrabbed": true,
+
+  "attackTitanAttackDamage": 15.0,
+  "attackTitanKickDamage": 20.0,
+  "armoredTitanAttackDamage": 15.0,
+  "armoredTitanKickDamage": 20.0,
+  "femaleTitanAttackDamage": 20.0,
+  "femaleTitanKickDamage": 27.0,
+  "beastTitanAttackDamage": 15.0,
+  "beastTitanKickDamage": 100.0,
+  "colossalTitanAttackDamage": 30.0,
+  "shifterMeleePlayerDamageCap": 8.0,
+  "colossalTitanSmashDamage": 50.0,
+
+  "attackTitanAttackRange": 14.0,
+  "armoredTitanAttackRange": 14.0,
+  "femaleTitanAttackRange": 14.0,
+  "beastTitanKickRange": 70.0,
+  "colossalTitanAttackRange": 50.0,
+  "colossalTitanSmashRange": 60.0,
+
+  "titanSpawnWeight": 15,
+  "smallTitanSpawnWeight": 10,
+  "smallTitan2SpawnWeight": 12,
+  "fritzTitanSpawnWeight": 10,
+  "titanBeardSpawnWeight": 10,
+  "titanTropicalSpawnWeight": 10,
+  "abnormalTitanSpawnWeight": 10,
+  "crawlingAbnormalTitanSpawnWeight": 3,
+  "baseTitanSpawnCap": 8,
+  "extraTitansPerPlayer": 4,
+
+  "eldianWeight": 42.0,
+  "marleyanWeight": 42.0,
+  "ackermanWeight": 10.0,
+  "royalWeight": 6.0,
+
+  "bladeAirSwingRange": 1.0,
+  "ackermanBladeAirSwingRange": 1.5,
+  "ackermanAwakenedBladeAirSwingRange": 2.0,
+
+  "beastRockDamage": 35.0,
+  "beastRockCount": 16,
+  "beastRockSpreadDegrees": 16.0,
+
+  "femaleCrystalDurationSeconds": 60,
+
+  "paradisWallHeight": 60,
+  "enableVillagesPathsWalls": true,
+  "enableReturnPillarGeneration": true,
+
+  "ymirCurseDurationDays": 13
+}

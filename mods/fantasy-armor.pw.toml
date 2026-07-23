@@ -1,0 +1,13 @@
+name = "Fantasy Armor (Medieval Series)"
+filename = "fantasy_armor-fabric-1.2.4-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5030eea317d85ebd83f4ad43c6b97713209de836"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7850793
+project-id = 1083998

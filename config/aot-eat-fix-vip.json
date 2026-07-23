@@ -1,0 +1,15 @@
+﻿{
+  "vipPermissions": {
+    "aot.vip.warhammer_2": ["warhammer_2"],
+    "aot.vip.attack_2": ["armincolossal"],
+    "aot.vip.attack_3": ["erencolossal"],
+    "aot.vip.beast_2": ["beast_2"],
+    "aot.vip.founding_2": ["founding_2"]
+  },
+  "stripUnauthorizedVipTags": true,
+  "requireClientMod": false,
+  "blockStealInProtectedClaims": true,
+  "stealProtectServerClaims": true,
+  "stealProtectPlayerClaims": false,
+  "stealProtectOverrides": true
+}

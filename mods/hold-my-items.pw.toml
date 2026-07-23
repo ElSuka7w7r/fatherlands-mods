@@ -1,0 +1,13 @@
+name = "Hold My Items"
+filename = "Hold My Items 1.21.1 v4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6564b36a45cbd53c22ef82fc002aa720970865e5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6216891
+project-id = 1127359

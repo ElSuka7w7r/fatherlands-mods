@@ -1,0 +1,13 @@
+name = "Easy NPC: Core"
+filename = "easy_npc-fabric-1.21.1-7.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2b7da4d6a293d734b0832ea3b5f12d1167afadf2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8466461
+project-id = 1308987

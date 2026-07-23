@@ -1,0 +1,13 @@
+name = "SkinChanger"
+filename = "skin_changer-fabric-1.21-0.9.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f3d9d7b3b5417ad457ce667aa93f3c16fb4f380"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5848577
+project-id = 378549

@@ -1,0 +1,28 @@
+# Local / tooling
+.packwiz/
+*.log
+.DS_Store
+Thumbs.db
+
+# Never commit game runtime junk
+saves/
+logs/
+crash-reports/
+.debug/
+.fabric/
+downloads/
+usercache.json
+usernamecache.json
+options.txt
+servers.dat
+servers.dat_old
+command_history.txt
+
+# Downloaded jars (packwiz regenerates from .pw.toml)
+# Keep only intentional custom jars under mods/
+mods/*.jar
+!mods/aot-eat-fix-*.jar
+!mods/aot-opac-protect-*.jar
+
+# Optional: if you move customs to GitHub Releases, ignore all jars:
+# mods/*.jar
