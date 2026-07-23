@@ -659,7 +659,7 @@ metafile = true
 
 [[files]]
 file = "mods/hold-my-items.pw.toml"
-hash = "d82a9b3f9ba777fcfa871322fcc168745c28f9a8ea18032e4ed6f0a3d3d9c32a"
+hash = "b2490145279040c3fd41bf54d4ded1574af72806b13586f9124dc7b341e0b291"
 metafile = true
 
 [[files]]
@@ -744,7 +744,7 @@ metafile = true
 
 [[files]]
 file = "mods/player-animation-library.pw.toml"
-hash = "1dbf4734f7728f95ac808529a5c62b2221c303452d483f0b3252625083eefde0"
+hash = "0e32256a666c2cb15e49f56b972e45d32e14f54c41fef32bba9dc0ef1c7e3cb0"
 metafile = true
 
 [[files]]
@@ -852,7 +852,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/fantasy-shaders.pw.toml"
-hash = "0d2ad15cef9a9bf179edf99ce2a308af582d4f94ad0f9603e4369b5c240c92e4"
+hash = "1a36e08ee270bc64454708bf3df1f1f9f52a4ee3bf56dcb60b9fc37ee89116d0"
 metafile = true
 
 [[files]]

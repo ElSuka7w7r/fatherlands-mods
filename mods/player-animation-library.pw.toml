@@ -1,5 +1,5 @@
-name = "Player Animation Library"
-filename = "PlayerAnimationLibFabric-1.1.5+mc.1.21.1.jar"
+﻿name = "Player Animation Library"
+filename = "player-animation-lib-1.1.5.jar"
 side = "both"
 
 [download]
@@ -11,3 +11,4 @@ hash = "c2412503eea202c9abf1b3d540a1dd61507bd3f2330cf2ed66c7c7cdfaec18cbbbb378de
 [update.modrinth]
 mod-id = "ha1mEyJS"
 version = "FkO8Scek"
+

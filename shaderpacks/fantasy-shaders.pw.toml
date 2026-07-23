@@ -1,5 +1,5 @@
-name = "Fantasy Shaders Reimagined"
-filename = "Fantasy Shaders Reimagined v1.1.zip"
+﻿name = "Fantasy Shaders Reimagined"
+filename = "fantasy-shaders-reimagined-v1.1.zip"
 side = "client"
 
 [download]
@@ -11,3 +11,4 @@ hash = "9629de244539e60489a71f263db6a7813587d07679f65c102eac68d6ad7908f08d2857c9
 [update.modrinth]
 mod-id = "l6di6hYz"
 version = "kqFlgfIA"
+
