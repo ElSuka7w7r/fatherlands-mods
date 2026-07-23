@@ -30,7 +30,7 @@ hash = "75db0197db2208beae11593d47e85730bc80909b6b7fb2d0ff44a4c7e73e15e4"
 
 [[files]]
 file = "config/aot-opac-protect.json"
-hash = "8748c3a7d06a6293888f817ce748c65675f55263dace770f133c39c5b040801a"
+hash = "f53f1b69e68f16b06b5e7b18bd65cafcf8be2b1f410b7d2e25f301255ba5e2b6"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -513,12 +513,12 @@ hash = "5a173a94cb9a9b1b16dd955b370752153a78e6fb935bb6e5020c1957af93ba53"
 metafile = true
 
 [[files]]
-file = "mods/aot-eat-fix-1.1.7.jar"
-hash = "475dd177f3e908770816126a57f2b1735008feed88c8fcf8e6a5296eef29f2d1"
+file = "mods/aot-eat-fix-1.1.8.jar"
+hash = "f42bd90293b7e6d88d9f047903d2e3713c953a66873408aaabeb5e13325634d4"
 
 [[files]]
-file = "mods/aot-opac-protect-1.3.2.jar"
-hash = "f885cb51d092fdd551f0049a768f7c42b75b867d97418f1a8f63fc3585d38ddc"
+file = "mods/aot-opac-protect-1.3.3.jar"
+hash = "3159d7354debae3dab089018e1532e3b1dfc98c95d1818bdcae68e904f36b656"
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
