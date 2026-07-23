@@ -8,5 +8,8 @@
   "blockAllTitanGriefEverywhere": false,
   "blockPlacementsInClaims": true,
   "notifyPlayers": true,
-  "debugLogging": false
+  "debugLogging": false,
+  "stealAllowSubConfigs": [
+    "Paradis"
+  ]
 }
