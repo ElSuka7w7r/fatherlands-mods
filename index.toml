@@ -513,8 +513,8 @@ hash = "5a173a94cb9a9b1b16dd955b370752153a78e6fb935bb6e5020c1957af93ba53"
 metafile = true
 
 [[files]]
-file = "mods/aot-eat-fix-1.1.8.jar"
-hash = "f42bd90293b7e6d88d9f047903d2e3713c953a66873408aaabeb5e13325634d4"
+file = "mods/aot-eat-fix-1.1.9.jar"
+hash = "a17846ed9c9d1a8b08d1dd642c746ef62f73bcdeb650dab4ace58d15a1216d73"
 
 [[files]]
 file = "mods/aot-opac-protect-1.3.3.jar"
