@@ -9,6 +9,10 @@ file = "README.md"
 hash = "2e78d6131078301ec225b3591c2b37e6199c6a8f0cada556a6965928b46e27eb"
 
 [[files]]
+file = "_manual_mods/springdaot-2.5.0.jar"
+hash = "0149bad837dda7cc7cadc6629f14736d48d3d2b014441d4b6eacdaf58c96a768"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "c5a052c8cde7e9345781ace8d2cc522723c95992fb1a21a04d786901381f4ea3"
 
@@ -794,10 +798,6 @@ hash = "f109e8599fe55df48c0cc1378c7b895dd50524e4a3f38defe63ea2434c797735"
 metafile = true
 
 [[files]]
-file = "mods/springdaot-2.5.0.jar"
-hash = "0149bad837dda7cc7cadc6629f14736d48d3d2b014441d4b6eacdaf58c96a768"
-
-[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "0890b28b56c7b68a5fcfcb4959c206e1f35f2a36df76cf7bdb1718d6172490b4"
 metafile = true
@@ -851,8 +851,8 @@ hash = "335d3e0f28b42381f929c9997dd188cd656178904833c2d1b01dfd3e098b0569"
 metafile = true
 
 [[files]]
-file = "shaderpacks/fantasy-shaders-reimagined.pw.toml"
-hash = "8fdd1d62463f4c2937f5faf64d728b5ce98b84da822ba86790a253678174e00a"
+file = "shaderpacks/fantasy-shaders.pw.toml"
+hash = "0d2ad15cef9a9bf179edf99ce2a308af582d4f94ad0f9603e4369b5c240c92e4"
 metafile = true
 
 [[files]]

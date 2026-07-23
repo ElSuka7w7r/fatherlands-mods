@@ -27,3 +27,7 @@ mods/*.jar
 
 # Optional: if you move customs to GitHub Releases, ignore all jars:
 # mods/*.jar
+
+# Optional offline jars (not served by packwiz)
+_manual_mods/
+

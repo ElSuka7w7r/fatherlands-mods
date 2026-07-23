@@ -1,12 +1,12 @@
 name = "Fartherlands"
 author = "Fartherlands"
-version = "1.0.0"
+version = "1.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3eb7db7eadbc114c2d9b5ba4488c8fcce1c73b0cc2e565c395d6dcbc5c8827be"
+hash = "b9fdba16afa68f90bcfcc1a8f01a417ccbae6260ef2e7089fd4d8d32aa0150ff"
 
 [versions]
 fabric = "0.19.2"
