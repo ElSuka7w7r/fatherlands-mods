@@ -3,11 +3,11 @@ filename = "PlayerAnimationLibFabric-1.1.5+mc.1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5005c388b026a9fa0c9e6106c17c8cd212929027"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/ha1mEyJS/versions/FkO8Scek/PlayerAnimationLibFabric-1.1.5%2Bmc.1.21.1.jar"
+hash-format = "sha512"
+hash = "c2412503eea202c9abf1b3d540a1dd61507bd3f2330cf2ed66c7c7cdfaec18cbbbb378de9b059433273617770fdc6ab085b79619f145d099b2edf8528c603799"
 
 [update]
-[update.curseforge]
-file-id = 8454209
-project-id = 1283899
+[update.modrinth]
+mod-id = "ha1mEyJS"
+version = "FkO8Scek"

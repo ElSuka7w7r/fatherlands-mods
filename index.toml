@@ -6,7 +6,7 @@ hash = "e44807fc930ec1a7c242a49e407e5c69cfeee85e03b5c0b10ba0ea3a1df1d17a"
 
 [[files]]
 file = "README.md"
-hash = "d308ae95c199f2d210a53b9b89caf1f880b9f9b3f9ffa89e535c07184bfb8f9d"
+hash = "2e78d6131078301ec225b3591c2b37e6199c6a8f0cada556a6965928b46e27eb"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -553,7 +553,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "9e21cc4fae5ed88e306b4601c5e1533f883aa8b60c6e36dedeec82718be87059"
+hash = "446c173c87b7908daee86b0dee89c6b628c77beb7a0bc091ff5252b7c0062080"
 metafile = true
 
 [[files]]
@@ -568,7 +568,7 @@ metafile = true
 
 [[files]]
 file = "mods/dannys-aot.pw.toml"
-hash = "ec007cf3debdee55e68be2e70ac081237fe0e076734e392e2fecd2748f8bf869"
+hash = "62b8d1aea6194a30b0ebf8bf5e42bf62f001d2f97eb53e8722313f0d932c1f7e"
 metafile = true
 
 [[files]]
@@ -587,13 +587,8 @@ hash = "1d4791c9731c179ddeca2d4fc00b5617eaccc5d5ea20c46347c74bd531af09a9"
 metafile = true
 
 [[files]]
-file = "mods/essential-permissions.pw.toml"
-hash = "d64e5252a06df94acdc7d1b4ea3f5435df5ee1789691e0cc1b05e3eca9b04549"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "6078dd5c26e06006982d778633d30cf67862be90f31d3862c511af0bdf189ea3"
+hash = "509726ae05260d3145f213d0ee630b15f43e7ddbebaeba4c30798f6c70e42458"
 metafile = true
 
 [[files]]
@@ -660,7 +655,7 @@ metafile = true
 
 [[files]]
 file = "mods/hold-my-items.pw.toml"
-hash = "3e117ac31b71f7e41cc8c992fe8583dc9b3af393eeeebf25024cc15d472d2b67"
+hash = "d82a9b3f9ba777fcfa871322fcc168745c28f9a8ea18032e4ed6f0a3d3d9c32a"
 metafile = true
 
 [[files]]
@@ -700,7 +695,7 @@ metafile = true
 
 [[files]]
 file = "mods/luckys-palette.pw.toml"
-hash = "ccb3dbcc16581af78e5c727ad5220d00e93751e175a2dc92564ec09add30bab6"
+hash = "419b42225f239705c615c765608ee604371192a5a7bd8df52db0420dab9ed44e"
 metafile = true
 
 [[files]]
@@ -719,8 +714,13 @@ hash = "756e9021d46a85cc4a8f89e9f71c0ac6031e8e40b41004fd2915bf2cbe64cd99"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "4a33f888af603e0859359f44b068854e4148d4fba35ee0818bb977171236a805"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "3a39acefa92c436968fb4cfaa87f1171284793665abf79d088c73cff19c1d5a2"
+hash = "de8e4e5701944ed7089011bce857333fde54e7d19deeb8364deab3072265d609"
 metafile = true
 
 [[files]]
@@ -740,7 +740,7 @@ metafile = true
 
 [[files]]
 file = "mods/player-animation-library.pw.toml"
-hash = "84760099a853377b4e9ea474ad9789704e56131968e12704591dfbef48e02441"
+hash = "1dbf4734f7728f95ac808529a5c62b2221c303452d483f0b3252625083eefde0"
 metafile = true
 
 [[files]]
@@ -794,9 +794,8 @@ hash = "f109e8599fe55df48c0cc1378c7b895dd50524e4a3f38defe63ea2434c797735"
 metafile = true
 
 [[files]]
-file = "mods/spring-addon-daot.pw.toml"
-hash = "908ee5620315849dda89b97ad9c4bfddf5f0727a07337f3452e43be9598c4f5e"
-metafile = true
+file = "mods/springdaot-2.5.0.jar"
+hash = "0149bad837dda7cc7cadc6629f14736d48d3d2b014441d4b6eacdaf58c96a768"
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
@@ -806,6 +805,11 @@ metafile = true
 [[files]]
 file = "mods/two-players-one-horse.pw.toml"
 hash = "75f3da43e0658f87ce543630f188d888d7ffdae1ce6c24275de17d63048d638f"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-permissions.pw.toml"
+hash = "e86f66edf9edb60a9480d92d34fc659f68bd746046164eb1599ce21c3a50babf"
 metafile = true
 
 [[files]]

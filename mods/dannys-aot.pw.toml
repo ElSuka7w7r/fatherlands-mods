@@ -3,11 +3,11 @@ filename = "dannys-aot-2.4.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "25981e61dd57401c96c4b95bea3493655360b0b4"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/7x3oDLDY/versions/getUiHuV/dannys-aot-2.4.2.jar"
+hash-format = "sha512"
+hash = "6747bc09ec530f97558600d06d7e98b8b38fd84094d34a066cc6dc73ea17f1fd296b30e65fe610535eef08d8dcc12dfd996aa51bd94897ac377461279f4b70fa"
 
 [update]
-[update.curseforge]
-file-id = 8355901
-project-id = 1412946
+[update.modrinth]
+mod-id = "7x3oDLDY"
+version = "getUiHuV"
