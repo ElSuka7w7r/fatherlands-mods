@@ -1,8 +1,0 @@
-{
-	"activateSortingInventory": true,
-	"sortType": "TYPE",
-	"activateDurabilityWarning": true,
-	"percentageDurabilityWarning": 10,
-	"activateDurabilityWarningSound": true,
-	"durabilityWarningSoundVolume": 100
-}

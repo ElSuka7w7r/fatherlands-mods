@@ -1,95 +1,24 @@
-﻿# Fartherlands (Packwiz)
+# Fartherlands Mods (Launcher)
 
-Modpack cliente **Minecraft 1.21.1 Â· Fabric 0.19.2** para el servidor Fartherlands.
+Repo de sync para el **Fartherlands Launcher**.
 
-Los mods de CurseForge/Modrinth se bajan solos; en el repo solo van metadatos (`.pw.toml`), configs y mods custom pequeÃ±os.
+- `version.json` en `main` → el launcher compara la versión
+- `modpack.zip` en **GitHub Releases** → mods + config + resourcepacks + shaderpacks
 
-## Requisitos (admin del pack)
+## Jugadores
 
-1. [Go](https://go.dev/dl/) instalado  
-2. Packwiz:
+Usa el launcher. No hace falta tocar este repo.
 
-```powershell
-go install github.com/packwiz/packwiz@latest
-# Asegura que %USERPROFILE%\go\bin estÃ© en el PATH
-```
+## Publicar una actualización
 
-## Estructura
-
-| Ruta | QuÃ© es |
-|------|--------|
-| `pack.toml` | Nombre, MC, Fabric |
-| `index.toml` | Ãndice + hashes (no editar a mano) |
-| `mods/*.pw.toml` | De dÃ³nde bajar cada mod |
-| `mods/aot-*.jar` | Mods custom (por ahora en el repo) |
-| `config/` | Configs compartidas |
-| `resourcepacks/` / `shaderpacks/` | Packs / metadatos de shaders |
-
-## Comandos Ãºtiles
+Desde la instancia CurseForge actualizada:
 
 ```powershell
-cd C:\Users\Timon\fartherlands-pack
-
-# Tras editar configs o jars locales:
-packwiz refresh
-
-# Actualizar todos los mods CF/MR:
-packwiz update --all
-
-# AÃ±adir un mod:
-packwiz curseforge add slug-o-url -y
-packwiz modrinth add slug-o-url -y
-
-# Probar en local (URL para Prism):
-packwiz serve
-# â†’ http://127.0.0.1:8080/pack.toml
+cd C:\Users\Timon\curseforge\minecraft\Instances\Fartherlands\launcher
+.\tools\build_modpack_zip.ps1 -Version 1.0.2 -SourceInstance "C:\Users\Timon\curseforge\minecraft\Instances\Fartherlands (1)"
 ```
 
-## Subir a GitHub (tÃº creas el repo)
+1. Copia `dist\version.json` aquí, commit y push a `main`
+2. Crea Release con tag `v1.0.2` y adjunta `dist\modpack.zip`
 
-```powershell
-cd C:\Users\Timon\fartherlands-pack
-git init
-git add .
-git commit -m "Initial Fartherlands packwiz pack"
-git branch -M main
-git remote add origin https://github.com/ElSuka7w7r/fatherlands-mods.git
-git push -u origin main
-```
-
-URL pÃºblica del pack (ajusta user/repo):
-
-```text
-https://raw.githubusercontent.com/ElSuka7w7r/fatherlands-mods/main/pack.toml
-```
-
-Si el repo es **privado**, usa un token o hostea con otro HTTP; Prism necesita poder leer esa URL.
-
-## Jugadores (Prism Launcher)
-
-1. Instalar [Prism Launcher](https://prismlauncher.org/)  
-2. Crear instancia â†’ Minecraft **1.21.1** + Fabric **0.19.2**  
-3. Seguir: [packwiz-installer](https://packwiz.infra.link/tutorials/installing/packwiz-installer/)  
-4. Pegar la URL de `pack.toml`  
-5. Al abrir la instancia se sincronizan mods/configs  
-
-## Mods custom â†’ GitHub Releases (recomendado despuÃ©s)
-
-Ahora `aot-eat-fix` y `aot-opac-protect` van como JAR en `mods/` (pesan poco).
-
-Cuando tengas Releases:
-
-```powershell
-# Ejemplo (cambia owner/repo/tag/asset):
-packwiz url add "https://github.com/TU_USER/aot-eat-fix/releases/download/v1.1.5/aot-eat-fix-1.1.5.jar" -y
-# o:
-packwiz github add TU_USER/aot-eat-fix -y
-```
-
-Luego borra el `.jar` local del repo, actualiza `.gitignore` y `packwiz refresh`.
-
-## Notas
-
-- Packwiz **no** gestiona premium/no premium; eso lo hace el launcher y el servidor.  
-- No subas `saves/`, mundos ni logs.  
-- Tras cambiar algo del pack: `packwiz refresh` â†’ `git commit` â†’ `git push`.
+El launcher detecta la versión mayor, descarga el ZIP y reemplaza las carpetas del juego.
