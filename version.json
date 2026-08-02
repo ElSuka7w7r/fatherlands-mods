@@ -1,5 +1,5 @@
 {
-    "changelog":  "Fartherlands 1.1.1 - incluye watermedia_binaries (fix crash al iniciar)",
-    "version":  "1.1.1",
-    "modpack_url":  "https://github.com/ElSuka7w7r/fatherlands-mods/releases/download/Launcher/modpack.zip"
+  "version": "1.1.2",
+  "modpack_url": "https://github.com/ElSuka7w7r/fatherlands-mods/releases/download/Launcher/modpack.zip",
+  "changelog": "Fartherlands 1.1.2 - sync mods/config/resourcepacks/shaderpacks/xaero (mapa+waypoints)"
 }
