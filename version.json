@@ -1,5 +1,5 @@
 {
-  "version": "1.1.6",
+  "version": "1.1.7",
   "modpack_url": "https://github.com/ElSuka7w7r/fatherlands-mods/releases/download/Launcher/modpack.zip",
-  "changelog": "Fartherlands 1.1.6 - springdaot 2.8.0"
+  "changelog": "Fartherlands 1.1.7 - FancyMenu: lista de servidores vanilla, sin auto-borrar al kick"
 }
